@@ -7,7 +7,7 @@ const spotSchema = new mongoose.Schema({
   },
   seen: {
     type: Boolean,
-    required: true
+    default: false
   },
   location: {
     type: String,
